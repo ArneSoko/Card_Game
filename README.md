@@ -26,7 +26,7 @@ Ties are determined with this suit order:
 3. Diamonds
 4. Hearts
 
-If the player chooses to play with order by card rank, then there are 10 possible pairs; but if the player chooses to play with left-to-right order then there are 25 possible pairs.
+If the player chooses to play with order by card rank, then there are 10 possible pairs; but if the player chooses to play with left-to-right order then there are 20 possible pairs.
 
 The deck, consisting of 4 of each "Unit", will be shuffled before play, randomizing the suits of each player's hand
 
