@@ -24,21 +24,50 @@ play:
     of valid cards from its hand. It does this by making a random selection from
     0 to 4 (the bounds of the list), and then checking that the index is valid.
 """
+
+
 class Player:
     def __init__(self):
         self.cards = [0, 0, 0, 0, 0]
-    #TODO: generate_cards program
+
 
 class CPU(Player):
-    def play(self) -> tuple:
-        card1 = 0
-        card2 = 0
+    def play(self) -> list:
+        card1 = random.randint(0, 4)
         while self.cards[card1] == 0:
             card1 = random.randint(0, 4)
+        card2 = card1
         while self.cards[card2] == 0 or card2 == card1:
             card2 = random.randint(0, 4)
-        return tuple((card1, card2))
+        return [card1, card2]
 
 
-def card_game:
+def generate_hand(player1: Player, player2: Player):
+    for i in range(5):
+        c1 = random.randint(0, 3)
+        player1.cards[i] = c1
+        c2 = c1
+        while c2 == 1:
+            c2 = random.randint(0, 3)
+        player2.cards[i] = c2
+
+
+def card_game():
+    selections = ['k', 'j', 4, 2, 'a']
+    player = Player()
+    comp = CPU()
+    generate_hand(player, comp)
+    x, y = -1
+    print("Welcome to the card game, card selections are 'k', 'j', '4', '2',"\
+          + " and 'a'")
+    while x not in selections:
+        x = input("Please select your first card")
+        if x.isalpha():
+            x.lower()
+
+    while y not in selections or y == x:
+        y = input("Please select your second card")
+        if y.isalpha():
+            y.lower()
+
 

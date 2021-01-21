@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f6721a-87a3-4764-9b55-b8b5a0ee6786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/game_files/Card_game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_files/Card_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_files/Card_game.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game_files/Card_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="-513">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -52,9 +52,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="width" value="1850" />
-    <option name="height" value="1855" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="820" />
+    <option name="height" value="558" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -69,11 +70,6 @@
             <path>
               <item name="E_Card" type="b2602c69:ProjectViewProjectNode" />
               <item name="E_Card" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E_Card" type="b2602c69:ProjectViewProjectNode" />
-              <item name="E_Card" type="462c0819:PsiDirectoryNode" />
-              <item name="game_files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="E_Card" type="b2602c69:ProjectViewProjectNode" />
@@ -150,17 +146,24 @@
       <option name="project" value="LOCAL" />
       <updated>1610494865593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Began back-end work">
+      <created>1610954553867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610954553867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-9" y="-9" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -218,7 +221,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Began work on a test module of pygame" />
-    <option name="LAST_COMMIT_MESSAGE" value="Began work on a test module of pygame" />
+    <MESSAGE value="Began back-end work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Began back-end work" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/graphics/emperor.png">
@@ -239,8 +243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game_files/Card_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="-513">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
         </state>
       </provider>
     </entry>
